@@ -1,0 +1,6 @@
+framework module Pods_YHMapLocation_Tests {
+  umbrella header "Pods-YHMapLocation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

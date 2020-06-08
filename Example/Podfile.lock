@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+  - YHMapLocation (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - YHMapLocation (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  YHMapLocation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  YHMapLocation: 3b3a112eade41fb6e449990515e3d98d302a0dd5
+
+PODFILE CHECKSUM: 32eb34a2f1e989d691fc5a8f7ecf23cf91bb876e
+
+COCOAPODS: 1.6.2
