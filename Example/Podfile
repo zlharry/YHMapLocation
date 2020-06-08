@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YHMapLocation_Example' do
+  pod 'YHMapLocation', :path => '../'
+
+  target 'YHMapLocation_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
